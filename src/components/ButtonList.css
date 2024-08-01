@@ -1,0 +1,30 @@
+.priority-buttons {
+  background-color: rgb(20, 110, 106);
+  border: 1px solid rgb(20, 110, 106);
+  border-radius: 10px 10px 0px 0px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selected-button {
+  background-color: rgb(233, 240, 240);
+  border: 1px solid rgb(233, 240, 240);
+  border-radius: 10px 10px 0px 0px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

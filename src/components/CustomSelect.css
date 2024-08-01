@@ -1,0 +1,45 @@
+.custom-select-header {
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  height: 30px;
+}
+.custom-select-header p {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+.arrow-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.custom-select-option {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  width: 576px;
+  height: 30px;
+  border: 1px solid grey;
+  margin: 2px 0px 0px 0px;
+}
+
+.custom-select-option:hover {
+  background-color: #f0f0f0;
+}
+
+/* For small Devices */
+@media screen and (max-width: 600px) {
+  .custom-select-header {
+    height: 30px;
+  }
+  .custom-select-option {
+    width: 282px;
+    height: 30px;
+  }
+}

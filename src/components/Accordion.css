@@ -1,0 +1,145 @@
+.accordion-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10px 0px 10px;
+}
+
+.priority-container {
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+}
+.status-select {
+  border: 1px solid rgb(20, 110, 106);
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+.task-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+.arrow-image {
+  width: 25px;
+  height: 20px;
+}
+.priority-image {
+  width: 20px;
+  height: 40px;
+}
+.due-date-text {
+  margin-left: 24px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.accordion-content-container {
+  background-color: #f1f1f1;
+}
+
+.accordion-content {
+  margin-left: 30px;
+}
+
+.desc-date-heading {
+  font-size: 18px;
+  font-weight: 800;
+  color: rgb(20, 110, 106);
+}
+.task-edit-delete-snooze-button-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.task-edit-delete-buttons {
+  background-color: rgb(20, 110, 106);
+  width: 100px;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+  border: 1px solid rgb(20, 110, 106);
+  border-radius: 15px;
+}
+.task-snooze-button {
+  background-color: rgb(20, 110, 106);
+  width: 100px;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+  border: 1px solid rgb(20, 110, 106);
+  border-radius: 15px;
+}
+
+.no-data-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 50vh;
+  padding: 20px;
+  margin: auto;
+  color: #333;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 90%;
+  width: 100%;
+}
+
+.no-data-container h4 {
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.no-data-container p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* For smaller screens */
+@media screen and (max-width: 600px) {
+  .status-select {
+    font-size: 14px;
+  }
+  .task-heading {
+    font-size: 14px;
+  }
+  .due-date-text {
+    font-size: 14px;
+  }
+  .task-edit-delete-snooze-button-container {
+    gap: 10px;
+  }
+
+  .no-data-container {
+    padding: 10px;
+  }
+
+  .no-data-container h4 {
+    font-size: 14px;
+  }
+
+  .no-data-container p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .status-select {
+    font-size: 16px;
+  }
+  .task-heading {
+    font-size: 16px;
+  }
+  .due-date-text {
+    font-size: 14px;
+  }
+  .task-edit-delete-snooze-button-container {
+    gap: 15px;
+  }
+}

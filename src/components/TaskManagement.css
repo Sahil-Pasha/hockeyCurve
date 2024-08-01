@@ -1,0 +1,301 @@
+.main-div {
+  margin: 10px 10px 0px 10px;
+}
+.list-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.search-input-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+}
+.search-input-container input {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 200px;
+  height: 30px;
+}
+.sort-conainter {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+}
+.sort-heading {
+  background-color: rgb(20, 110, 106);
+  border: 1px solid rgb(20, 110, 106);
+  border-radius: 10px 10px 0px 0px;
+  font-size: 18px;
+  width: 150px;
+  height: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sort-select {
+  border: 1px solid rgb(20, 110, 106);
+  border-radius: 10px;
+  font-size: 18px;
+  width: 150px;
+  height: 40px;
+}
+.sort-select option {
+  border: 1px solid rgb(20, 110, 106);
+  border-radius: 10px;
+  background-color: rgb(20, 110, 106);
+  color: white;
+  font-size: 18px;
+}
+.dark-light-mode-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  border: 2px solid rgb(20, 110, 106);
+  border-radius: 15px;
+}
+.light-dark-mode-button {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 15px;
+  width: 70px;
+  height: 30px;
+}
+.list-view-heading {
+  background-color: rgb(20, 110, 106);
+  border: 1px solid rgb(20, 110, 106);
+  border-radius: 10px 10px 0px 0px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 150px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tasks-container {
+  background-color: rgb(200, 209, 209);
+}
+
+.priority-buttons-container {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  margin-left: 10px;
+  gap: 20px;
+  position: sticky;
+  top: 60px;
+  background-color: rgb(200, 209, 209);
+  z-index: 1000;
+}
+.add-task-form-container {
+  background-color: rgb(200, 209, 209);
+  height: 100vh;
+}
+.add-task-form-heading-container {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+.add-task-form-heading {
+  font-size: 24px;
+  font-weight: 700;
+}
+.add-task-form-delete-button {
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100px;
+  height: 30px;
+}
+.form-conatiner {
+  display: flex;
+  justify-content: center;
+}
+.input-field {
+  height: 30px;
+  border: 2px solid grey;
+  border-radius: 15px;
+  width: 576px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.input-field::placeholder {
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+  align-items: center;
+}
+.task-add-cancel-button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+.task-add-cancel-buttons {
+  background-color: rgb(20, 110, 106);
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  border: 1px solid rgb(20, 110, 106);
+  border-radius: 15px;
+}
+.task-Edit-done-button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+.task-Edit-done-buttons {
+  background-color: rgb(20, 110, 106);
+  width: 150px;
+  height: 35px;
+  font-size: 18px;
+  color: white;
+  border: 1px solid rgb(20, 110, 106);
+  border-radius: 15px;
+}
+.EditCancel-button-conatiner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.EditCancel-button {
+  background-color: rgb(20, 110, 106);
+  width: 120px;
+  height: 35px;
+  font-size: 18px;
+  color: white;
+  border: 1px solid rgb(20, 110, 106);
+  border-radius: 15px;
+}
+
+/* For small devices */
+@media screen and (max-width: 600px) {
+  .main-div {
+    margin: 10px 10px 0px 10px;
+  }
+  .list-view {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .search-input-container {
+    justify-content: left;
+    gap: 10px;
+  }
+  .sort-conainter {
+    justify-content: left;
+    gap: 10px;
+  }
+  .sort-heading {
+    font-size: 14px;
+    width: 100px;
+    height: 30px;
+  }
+  .sort-select {
+    font-size: 14px;
+    width: 100px;
+    height: 30px;
+  }
+  .sort-select option {
+    font-size: 14px;
+  }
+  .priority-buttons-container {
+    margin: 0px 5px 0px 5px;
+    gap: 5px;
+    top: 188px;
+  }
+  .input-field {
+    width: 282px;
+    height: 30px;
+  }
+  .task-add-cancel-button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 130px;
+  }
+  .task-add-cancel-buttons {
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 10px;
+  }
+  .task-Edit-done-button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 130px;
+  }
+  .task-Edit-done-buttons {
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 10px;
+  }
+  .EditCancel-button-conatiner {
+    margin-top: 15px;
+  }
+  .EditCancel-button {
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .list-view-heading {
+    font-size: 14px;
+    width: 140px;
+  }
+  .search-input-container input {
+    width: 130px;
+    height: 30px;
+  }
+  .sort-heading {
+    width: 80px;
+    font-size: 14px;
+  }
+  .sort-select {
+    width: 100px;
+    font-size: 14px;
+  }
+  .dark-light-mode-container {
+    width: 70px;
+  }
+  .light-dark-mode-button {
+    width: 60px;
+  }
+  .priority-buttons-container {
+    top: 124px;
+  }
+}

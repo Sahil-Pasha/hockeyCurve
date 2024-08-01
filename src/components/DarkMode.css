@@ -1,0 +1,124 @@
+.dark-mode .list-view {
+  background-color: #002222;
+}
+
+.dark-mode .search-input-container {
+  background-color: #002222;
+  color: white;
+  border-radius: 10px;
+}
+.dark-mode .search-input-container input {
+  border: 1px solid white;
+  background-color: #002222;
+  color: white;
+}
+.dark-mode .search-input-container input::placeholder {
+  color: white;
+}
+.dark-mode .sort-heading {
+  background-color: #002222;
+  border: 1px solid white;
+}
+
+.dark-mode .sort-select {
+  border: 1px solid white;
+}
+
+.dark-mode,
+.sort-select option {
+  border: 1px solid white;
+  background-color: #002222;
+}
+.dark-mode .light-dark-mode {
+  background-color: #002222;
+  border: 2px solid white;
+}
+.dark-mode .list-view-heading {
+  background-color: #002222;
+  border: 1px solid white;
+  border-radius: 10px 10px 0px 0px;
+}
+.dark-mode .priority-buttons-container {
+  background-color: rgb(140, 146, 146);
+}
+.dark-mode .priority-buttons {
+  background-color: #1d3a3a;
+  border: 1px solid #1d3a3a;
+  color: white;
+}
+.dark-mode .tasks-container {
+  background-color: rgb(140, 146, 146);
+}
+.dark-mode .task-heading {
+  color: white;
+}
+.dark-mode .due-date-text {
+  color: white;
+}
+.dark-mode .accordion-content-container {
+  background-color: #002222;
+}
+.dark-mode .desc-date-heading {
+  color: white;
+}
+.dark-mode .desc-text {
+  color: white;
+}
+.dark-mode .task-edit-delete-buttons {
+  background-color: rgb(140, 146, 146);
+  border: 1px solid rgb(140, 146, 146);
+}
+.dark-mode .task-snooze-button {
+  background-color: rgb(140, 146, 146);
+  border: 1px solid rgb(140, 146, 146);
+}
+.dark-mode .add-task-form-container {
+  background-color: rgb(140, 146, 146);
+  height: 100vh;
+}
+.dark-mode .add-task-form-heading {
+  color: white;
+}
+.dark-mode .add-task-form-delete-button {
+  background-color: rgb(142, 73, 73);
+  border: 1px solid rgb(142, 73, 73);
+  color: white;
+}
+.dark-mode .input-field {
+  border: 2px solid white;
+  border-radius: 15px;
+  font-size: 18px;
+}
+.dark-mode .custom-select-header p {
+  font-size: 18px;
+}
+.dark-mode .task-add-cancel-buttons {
+  background-color: #000222;
+  border: 1px solid #000222;
+  color: white;
+}
+
+.dark-mode .task-Edit-done-buttons {
+  background-color: #000222;
+  border: 1px solid #000222;
+  color: white;
+}
+.dark-mode .EditCancel-button {
+  background-color: #000222;
+  border: 1px solid #000222;
+  color: white;
+}
+.dark-mode .modal-content button {
+  background-color: #000222;
+  border: 1px solid #000222;
+}
+.dark-mode .status-select {
+  background-color: #000222;
+  color: white;
+}
+.dark-mode .no-data-container {
+  color: white;
+  background-color: #000222;
+  border: 1px solid #000222;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

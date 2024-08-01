@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+/* .main-div {
+  margin: 20px 20px 0px 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list-view {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+}
+.list-view-heading {
+  background-color: rgb(20, 110, 106);
+  border: 1px solid rgb(20, 110, 106);
+  border-radius: 10px 10px 0px 0px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 150px;
+  height: 40px;
   color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.tasks-container {
+  background-color: rgb(200, 209, 209);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.priority-buttons-container {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  margin-left: 10px;
+  gap: 20px;
+}
+.priority-buttons {
+  background-color: rgb(20, 110, 106);
+  border: 1px solid rgb(20, 110, 106);
+  border-radius: 10px 10px 0px 0px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-task-form-container {
+  background-color: rgb(200, 209, 209);
+  height: 100vh;
+}
+.add-task-form-heading-container {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+.add-task-form-heading {
+  font-size: 24px;
+  font-weight: 700;
+}
+.add-task-form-delete-button {
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 15px;
+  color: white;
+  font-size: 16px;
+  width: 100px;
+  height: 30px;
+}
+.form-conatiner {
+  display: flex;
+  justify-content: center;
+}
+.input-field {
+  height: 30px;
+  border: 2px solid grey;
+  width: 576px;
+  margin-bottom: 20px;
+}
+.input-field::placeholder {
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+  align-items: center;
+}
+.task-add-cancel-button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+.task-add-cancel-buttons {
+  background-color: rgb(20, 110, 106);
+  width: 100px;
+  height: 30px;
+  color: white;
+  border: 1px solid rgb(20, 110, 106);
+  border-radius: 15px;
+}
+
+/* For small devices */
+@media screen and (max-width: 600px) {
+  /* .main-div {
+    margin: 10px 10px 0px 10px;
   }
-  to {
-    transform: rotate(360deg);
+  .list-view {
+    flex-direction: column;
+    align-items: stretch;
   }
+  .priority-buttons-container {
+    justify-content: 'center';
+    margin: 0px 5px 0px 5px;
+    gap: 8px;
+  }
+  .input-field {
+    width: 282px;
+    height: 30px;
+  } */
 }
